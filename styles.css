@@ -1,0 +1,29 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+    margin: 0;
+}
+
+.site-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.site-link {
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.site-link:hover {
+    background-color: violet;
+    color: black;
+}
